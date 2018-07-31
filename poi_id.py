@@ -39,8 +39,7 @@ from tester import dump_classifier_and_data
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.pipeline import Pipeline
 
-from sklearn.feature_selection import SelectFromModel, SelectKBest, chi2, \ 
-f_classif, RFECV
+from sklearn.feature_selection import SelectFromModel, SelectKBest, chi2, f_classif, RFECV
 
 from sklearn.model_selection import cross_val_predict
 from sklearn.model_selection import GridSearchCV, StratifiedShuffleSplit
